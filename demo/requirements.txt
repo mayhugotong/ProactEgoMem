@@ -1,0 +1,11 @@
+# The script, the walkthrough and the notebook
+torch
+numpy
+pydantic
+pyyaml
+av
+opencv-python-headless
+pillow
+huggingface_hub
+# To open the notebook: jupyter
+# For --hf-model: transformers, accelerate

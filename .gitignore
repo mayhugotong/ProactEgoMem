@@ -1,0 +1,47 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+
+# Environment
+.env
+.env.*
+!.env.example
+
+# Local/generated caches
+src/__cache_videos/
+
+# Generated outputs and logs
+/bootstrap/
+/outputs/
+/results/
+/debug/
+slurm//debug/
+*.log
+*.out
+
+# Frontend / JS
+node_modules/
+.next/
+out/
+dist/
+build/
+site/
+
+# OS / editor
+.DS_Store
+
+# Separate external projects kept in this workspace
+/data/
+/labeling/
+/visualizer/
+/models/
+
+# Demo runs
+/demo/output/
